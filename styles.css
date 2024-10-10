@@ -26,6 +26,31 @@ body {
     display: none;
 }
 
+@media (max-width: 1200px) {
+    #key {
+        font-weight: bold;
+        font-size: 2rem;
+        /* Font size for screens up to 1200px */
+    }
+}
+
+@media (max-width: 900px) {
+    #key {
+        font-weight: bold;
+        font-size: 2rem;
+        /* Font size for screens up to 900px */
+    }
+}
+
+@media (max-width: 600px) {
+    #key {
+        font-weight: bold;
+        font-size: 2rem;
+        /* Font size for screens up to 600px */
+    }
+}
+
+
 .main {
     border-style: solid;
     margin: 20px;
