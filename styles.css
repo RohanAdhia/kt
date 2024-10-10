@@ -1,0 +1,37 @@
+body {
+    color: #DBD3D3;
+    /* background-color: #070F2B; */
+    /* background-image: linear-gradient(to right, #4D3C77, #A2678A); */
+    /* background-color: #4158D0; */
+    /* background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+    background: #C04848;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #480048, #C04848);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #480048, #C04848);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #DC2424; */
+    /* background: -webkit-linear-gradient(to right, #4A569D, #DC2424); */
+    /* background: linear-gradient(to right, #4A569D, #DC2424); */
+
+    text-align: center;
+    font-family: monospace;
+}
+
+#key {
+    font-weight: bold;
+    font-size: 10rem;
+    display: none;
+}
+
+.main {
+    border-style: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+.test {
+    margin: 20%;
+}
