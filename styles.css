@@ -59,4 +59,14 @@ body {
 
 .test {
     margin: 20%;
+    /* transition: border-color 0.3s ease; */
+}
+
+.glow {
+    /* border-color: rgba(255, 255, 0, 0.8); */
+    /* box-shadow: 0 0 20px rgba(255, 255, 0, 0.8); */
+    border-color: #FFD700;
+    box-shadow: 0 0 20px #FFD700;
+    /* border-color: #00FFFF;
+    box-shadow: 0 0 20px #00FFFF; */
 }
