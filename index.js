@@ -10,7 +10,8 @@
         div.classList.add("main","glow");
     });
 
-    document.addEventListener('keyup', function() {
+    document.addEventListener('keyup', function(event) {
+        event.preventDefault();
         var div = document.getElementById("container");
         div.classList.remove('glow');
     });
